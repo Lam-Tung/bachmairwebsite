@@ -1,6 +1,6 @@
 <template>
-    <div>
-        <img alt="Bachmair pic" src="../assets/bachmair.png">
+    <div class="p-4 bg-red-400">
+        <img alt="bachmair.png" src="../assets/pictures/bachmair.png">
     </div>
 </template>
 

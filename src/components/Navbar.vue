@@ -1,7 +1,7 @@
 <template>
   <header class="bg-indigo-900 md:flex md:justify-center md:items-center md:px-4 md:py-3">
     <div class="flex items-center justify-between px-4 py-3 md:p-0">
-      <div class="font-semibold text-xl text-white tracking-tight">
+      <div class="font-semibold text-4xl mr-4 text-white tracking-tight">
         Ben Bachmair
       </div>
       <div class="md:hidden">
@@ -13,9 +13,9 @@
         </button>
       </div>
     </div>
-    <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0">
+    <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0 md:text-2xl">
         <router-link to="/" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">Home</router-link>
-        <router-link to="/cvselect" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">Lebenslauf</router-link>
+        <router-link to="/cv" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">Lebenslauf</router-link>
         <router-link to="/about" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">Veröffentlichungen</router-link>
         <router-link to="/about" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">Vorträge</router-link>
         <router-link to="/about" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">Lernen</router-link>

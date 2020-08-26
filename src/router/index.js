@@ -20,11 +20,11 @@ const routes = [
       import(/* webpackChunkName: "about" */ "../views/About.vue")
   },
   {
-    path: "/cvselect",
-    name: "CVSelect",
+    path: "/cv",
+    name: "CV",
     component: () =>
       import("../views/CV.vue")
-  }
+  },
 ];
 
 const router = new VueRouter({
