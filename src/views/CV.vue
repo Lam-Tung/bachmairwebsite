@@ -36,7 +36,7 @@ export default {
   data() {
     return {
       isGerman: true,
-      isEnglish:false
+      isEnglish:false,
     }
   },
 }

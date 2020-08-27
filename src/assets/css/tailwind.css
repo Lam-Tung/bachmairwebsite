@@ -33,3 +33,9 @@
     margin-top: 1rem;
     font-weight: 700;
 }
+
+.cvplusminus {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

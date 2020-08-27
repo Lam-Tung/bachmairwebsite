@@ -1,6 +1,6 @@
 <template>
   <div>
-    <p class="">
+    <p>
       Prof. Dr. phil. Ben Bachmair, Jahrgang 1943, war bis zur Pensionierung im Herbst 2008 Universitätsprofessor für Erziehungswissenschaft, Medienpädagogik und Mediendidaktik an der Universität Kassel und Dekan des dortigen Fachbereichs Erziehungswissenschaft/ Humanwissenschaften. Seit Sommersemester 2019 unterrichtet er als Seniorprofessor für Digitale Bildung an der Goethe-Universität Frankfurt. Zur digitalen Bildung kommt er über Forschung zu Handy und mobilem Lernen. Mobile Learning ist seit Mitte der 2010er Jahre sein Arbeitsschwerpunkt am Institute of Education, University College London der University of London, wo er Honorary Professor ist und sich mit dem anglophonen Wissenschaftskontext zur Digitalen Bildung vertraut gemacht hat. Am Londoner Institute of Education war er seit Anfang der 1990er Jahre mehrmals Research Fellow und Gründungsmitglied der dort angesiedelten London Mobile Learning Group.
     </p>
     <p class="mt-4">
@@ -8,8 +8,16 @@
     </p>
     <h1 class="mt-4 font-extrabold">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
     <Section class="mt-4">
-      <h2 class="cvheaderABC">A. Theorie zu Bildung und Massenkommunikation</h2>
-      <ul class="cvulist">
+      <div class="cvplusminus">
+        <h2 class="cvheaderABC">A. Theorie zu Bildung und Massenkommunikation</h2>
+        <button @click="isOpenA = !isOpenA" class=" block focus:outline-none p-4">
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path v-if="!isOpenA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+           <path v-if="isOpenA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </button>
+      </div>
+      <ul :class="isOpenA ? 'block' : 'hidden'" class="cvulist">
         <li class="cvli">
           <h2 class="cvheaderli">
             Medienpädagogik als Kulturwissenschaft. Bildungskonzepte und Wandel der Massenkommunikation mit dem Schwerpunkt bei der Bildungstheorie der europäischen Aufklärung mit deren Gedanken der Entwicklung der Kinder in ihrem Prozess der Aneignung von Kultur und ihrer Teilnahme an Kultur.
@@ -141,8 +149,16 @@
           </p>
         </li>
       </ul>
-      <h2 class="cvheaderABC">B. Bildungspraxis im Prozess der Individualisierung und Digitalisierung der Massenkommunikation, didaktische Methoden für Schule</h2>
-      <ul class="cvulist">
+      <div class="cvplusminus">
+        <h2 class="cvheaderABC">B. Bildungspraxis im Prozess der Individualisierung und Digitalisierung der Massenkommunikation, didaktische Methoden für Schule</h2>
+        <button @click="isOpenB = !isOpenB" class=" block focus:outline-none p-4">
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path v-if="!isOpenB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+           <path v-if="isOpenB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </button>
+      </div>
+      <ul :class="isOpenB ? 'block' : 'hidden'" class="cvulist">
         <li class="cvli">
           <h2 class="cvheaderli">
             Medienerziehung mit Schwerpunk bei der Verarbeitung und Gestaltung von Medienerlebnissen.
@@ -247,8 +263,16 @@
           </p>
         </li>
       </ul>
-      <h2 class="cvheaderABC">C. Empirische Forschung</h2>
-      <ul class="cvulist">
+      <div class="cvplusminus">
+        <h2 class="cvheaderABC">C. Empirische Forschung</h2>
+        <button @click="isOpenC = !isOpenC" class=" block focus:outline-none p-4">
+          <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+            <path v-if="!isOpenC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+           <path v-if="isOpenC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+         </svg>
+        </button>
+      </div>
+      <ul :class="isOpenC ? 'block' : 'hidden'" class="cvulist">
         <li class="cvli">
           <h2 class="cvheaderli">
             Methoden qualitativer Medien- und Kommunikationsforschung; rezeptionsorientierte Filmanalyse, teilnehmende Beobachtung und Situationsanalyse, Fernsehrezeption und Alltagsbewältigung.
@@ -306,6 +330,13 @@
 
 <script>
 export default {
-  name: "CVGerman"
+  name: "CVGerman",
+  data() {
+    return {
+      isOpenA : false,
+      isOpenB : false,
+      isOpenC : false,
+    }
+  },
 };
 </script>
