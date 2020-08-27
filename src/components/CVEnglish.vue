@@ -1,6 +1,6 @@
 <template>
   <div>
-    <div class="p-4 mt-4">
+    <div class="">
         aeoufewjfpiwjfipj     ENGLISH  wepfjpwejfüwjepfjewofjewopfjpowejfowp
     </div>
   </div>
