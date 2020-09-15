@@ -1,12 +1,12 @@
 <template>
   <div>
-    <p>
+    <p >
       Prof. Dr. phil. Ben Bachmair, Jahrgang 1943, war bis zur Pensionierung im Herbst 2008 Universitätsprofessor für Erziehungswissenschaft, Medienpädagogik und Mediendidaktik an der Universität Kassel und Dekan des dortigen Fachbereichs Erziehungswissenschaft/ Humanwissenschaften. Seit Sommersemester 2019 unterrichtet er als Seniorprofessor für Digitale Bildung an der Goethe-Universität Frankfurt. Zur digitalen Bildung kommt er über Forschung zu Handy und mobilem Lernen. Mobile Learning ist seit Mitte der 2010er Jahre sein Arbeitsschwerpunkt am Institute of Education, University College London der University of London, wo er Honorary Professor ist und sich mit dem anglophonen Wissenschaftskontext zur Digitalen Bildung vertraut gemacht hat. Am Londoner Institute of Education war er seit Anfang der 1990er Jahre mehrmals Research Fellow und Gründungsmitglied der dort angesiedelten London Mobile Learning Group.
     </p>
     <p class="mt-4">
       Er war unter anderem Gründungsvorsitzender des internationalen Universitätskonsortiums für Medien- und Kulturwissenschaft CoMundus und leitete dessen Studiengang eines European Master of Art in Media, Communication and Cultural Studies. Er war Vorsitzender der Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft und Vorstandsmitglied der Gesellschaft für Medienpädagogik und Kommunikationskultur (GMK). Er arbeitete mit an der European Charter for Media Literacy. Er hatte die wissenschaftliche Leitung des Modellversuchs zum mobilen Lernen von medien+bildung.com, der Lernwerkstatt der Landesanstalt für Medien in Rheinland-Pfalz, bei dem 2011 das Buch 'Mobiles Lernen mit dem Handy' entstand. Er war Mitglied der Kommission für den Schutz der Menschenwürde und den Jugendschutz in Rundfunk und Telemedien (KJM). Gastprofessuren nahm er wahr an den Universitäten Klagenfurt, Florenz, der Staatsuniversität von St. Petersburg.
     </p>
-    <h1 class="mt-4 font-extrabold">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
+    <h1 class="flex justify-center mt-4 font-extrabold">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
     <Section class="mt-4">
       <div class="cvplusminus">
         <h2 class="cvheaderABC">A. Theorie zu Bildung und Massenkommunikation</h2>
