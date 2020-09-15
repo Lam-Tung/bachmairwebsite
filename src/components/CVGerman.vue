@@ -103,7 +103,7 @@
           </p>
           <p class="pubsrc">
             Bachmair, Ben, Pachler, Norbert (2014). Literacy in a culture of delimitation and provisionality. In: International Journal of Learning and Media 4(3). Special Issue on ‘New Media, New Literacies, New Forms of Learning’, pp 19 - 32. 
-            <a href="http://www.mitpressjournals.org/doi/pdf/10.1162/IJLM_a_00099" class="ref">http://www.mitpressjournals.org/doi/pdf/10.1162/IJLM_a_00099</a>
+            <a href="https://access.portico.org/Portico/auView?auId=ark:%2F27927%2Fphx73mtdj04" class="ref">DOI: 10.1162/IJLM_a_00099</a>
           </p>
           <p class="pubsrc">
             Bachmair, Ben (2019). Exploring Writing in a Digitally-Dominated Culture – Options for Formal Learning in Schools. In: Media Education (Mediaobrazovanie), 2019, 59(3), pp. 338 – 366. ISSN 1994–4160. E–ISSN 1994–4195. DOI: 10.13187/me.2019.3.338. www.ejournal53.com. Academic Publishing House Researcher s.r.o. Bratislava, Published in the Slovak Republic 
@@ -127,7 +127,7 @@
           </p>
           <p class="pubsrc">
             Cook, John, Pachler, Norbert, Bachmair, Ben (2011). Ubiquitous Mobility with Mobile Phones: a cultural ecology for mobile learning. In: E–Learning and Digital Media, Special Issue - Media: digital, ecological, epistemological. Volume 8, Number 3, pp. 181-196 
-            <a href="www.wwwords.co.uk/ELEA" class="ref">www.wwwords.co.uk/ELEA</a>
+            <a href="https://uwe-repository.worktribe.com/preview/967732/CookPachlerBachmair_ELEA_8_3_2011.pdf" class="ref">https://uwe-repository.worktribe.com/preview/967732/CookPachlerBachmair_ELEA_8_3_2011.pdf</a>
           </p>
           <p class="pubsrc">
             Bachmair, Ben, Pachler, Norbert, Cook, John (2014). Mobile Medien als Kulturressourcen für Lernen, ein kulturökologischer Beitrag zur Medienbildung. In: Winfried Marotzki, Norbert Meder (Hrsg.). Perspektiven der Medienbildung. Wiesbaden, Verlag für Sozialwissenschaften/Springer, Reihe "Medienbildung und Gesellschaft". S. 209 – 233. ISBN: 978-3-658-03528-0 (Print) 978-3-658-03529-7 (Online).
@@ -138,7 +138,7 @@
           </p>
           <p class="pubsrc">
             Bachmair, Ben, Pachler, Norbert (2014). A cultural ecological frame for mobility and learning. In: Dorothee Meister, Theo Hug, Norm Friesen (eds). Educational Media Ecologies: International Perspectives. MedienPädagogik 24 (4.Sept.): 53–74
-            <a href="www.medienpaed.com/24/#bachmair1409" class="ref">www.medienpaed.com/24/#bachmair1409</a>
+            <a href="https://www.medienpaed.com/article/view/168/168" class="ref">https://www.medienpaed.com/article/view/168/168</a>
           </p>
           <p class="pubsrc">
             Bachmair, Ben, Pachler, Norbert (2015). Sustainability for Innovative Education – The Case of Mobile Learning. In: Journal of Interactive Media in Education, 2015(1): 17, pp. 1–12, 
@@ -186,7 +186,7 @@
           </p>
           <p class="pubsrc">
             Ben Bachmair (2011). Media literacy, everybody’s darling – its strategic functions and relevant items for a framework? In: Sonia Livingstone (Ed.) (August 2011) Media literacy: Ambitions, policies and measures. Papers of the First conference of COST Action IS0906Report of Round Table 1, 7-9 April 2011, University of Zagreb, Croatia 
-            <a href="http://www.cost-transforming-audiences.eu/system/files/cost_media_literacy_report.pdf#page=8" class="ref">http://www.cost-transforming-audiences.eu/system/files/cost_media_literacy_report.pdf#page=8</a>
+            <a href="http://eprints.lse.ac.uk/56879/1/__lse.ac.uk_storage_LIBRARY_Secondary_libfile_shared_repository_Content_Livingstone,%20S_Media%20literacy%20ambitions_2011.pdf" class="ref">Ref</a>
           </p>
         </li>
         <li class="cvli">
@@ -205,7 +205,7 @@
           </p>
           <p class="pubsrc">
             Bachmair, Ben, Cook, John, Pachler, Norbert, London Mobile Group (2011). Mobilità ubiquitaria con i telefoni cellulari in contesto scolastico formale – un approccio al mobile learning basato su una cultura ecologica. Traduzione italiana di Maria Ranieri. In: form@re. Open Journal per la formazione in rete. Edizioni Erickson. 26 gennaio 2011 
-            <a href="http://formare.erickson.it/wordpress/it/2011/mobilita-ubiquitaria-con-i-telefoni-cellulari-in-contesto-scolastico-formale-%E2%80%93-un-approccio-al-mobile-learning-basato-su-una-cultura-ecologica/" class="ref">http://formare.erickson.it/wordpress/it/2011/mobilita-ubiquitaria-con-i-telefoni-cellulari-in-contesto-scolastico-formale-%E2%80%93-un-approccio-al-mobile-learning-basato-su-una-cultura-ecologica/</a>
+            <a href="http://formare.erickson.it/wordpress/it/2011/mobilita-ubiquitaria-con-i-telefoni-cellulari-in-contesto-scolastico-formale-%E2%80%93-un-approccio-al-mobile-learning-basato-su-una-cultura-ecologica/" class="ref">Ref</a>
           </p>
           <p class="pubsrc">
             Friedrich, Katja, Bachmair, Ben, Risch, Maren (2011) Mobiles Lernen mit dem Handy. Herausforderungen und Chancen für den Unterricht. Beltz Verlag, Weinheim, Basel 2011. ISBN 978-3-407-62765-0
