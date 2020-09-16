@@ -1,10 +1,10 @@
 <template>
-  <header class="bg-indigo-900 md:flex md:justify-center md:items-center md:px-4 md:py-3">
-    <div class="flex items-center justify-between px-4 py-3 md:p-0">
+  <header class="bg-indigo-900 lg:flex lg:justify-center lg:items-center lg:px-4 lg:py-3">
+    <div class="flex items-center justify-between px-4 py-3 lg:p-0">
       <div class="font-semibold text-4xl mr-4 text-white tracking-tight">
         Ben Bachmair
       </div>
-      <div class="md:hidden">
+      <div class="lg:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
           <svg class="h-6 w-6 fill-current" viewBox="0 0 24 24">
             <path v-if="isOpen" fill-rule="evenodd" d="M18.278 16.864a1 1 0 0 1-1.414 1.414l-4.829-4.828-4.828 4.828a1 1 0 0 1-1.414-1.414l4.828-4.829-4.828-4.828a1 1 0 0 1 1.414-1.414l4.829 4.828 4.828-4.828a1 1 0 1 1 1.414 1.414l-4.828 4.829 4.828 4.828z"/>
@@ -13,7 +13,7 @@
         </button>
       </div>
     </div>
-    <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 md:flex md:p-0 md:text-2xl">
+    <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 lg:flex md:p-0 lg:text-2xl">
         <router-link to="/" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">
           Home
         </router-link>
@@ -31,6 +31,9 @@
         </router-link>
         <router-link to="/about" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
           Kulturökologie
+        </router-link>
+        <router-link to="/impressum" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
+          Impressum
         </router-link>
     </nav>
   </header>

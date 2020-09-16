@@ -8,11 +8,11 @@
         CV English
       </button>
     </div>
-    <div class="md:flex">
-      <div class="flex justify-center md:block">
-       <img class="rounded h-auto w-auto overflow-hidden shadow-lg border-indigo-900 md:object-cover md:max-w-6xl md:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
+    <div class="lg:flex">
+      <div class="flex justify-center lg:block">
+       <img class="rounded h-auto w-auto overflow-hidden shadow-lg border-indigo-900 lg:object-cover lg:max-w-6xl lg:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
       </div>  
-      <div class="flex items-start justify-center p-4 md:p-0 md:ml-20 md:mr-20">
+      <div class="flex items-start justify-center p-4 lg:p-0 lg:ml-20 lg:mr-20">
         <div v-if="isGerman">
           <CVGerman/>
         </div>

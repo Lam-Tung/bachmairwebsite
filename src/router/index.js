@@ -25,6 +25,12 @@ const routes = [
     component: () =>
       import("../views/CV.vue")
   },
+  {
+    path: "/impressum",
+    name: "Impressum",
+    component: () =>
+      import("../views/Impressum.vue")
+  },
 ];
 
 const router = new VueRouter({
