@@ -31,6 +31,12 @@ const routes = [
     component: () =>
       import("../views/Impressum.vue")
   },
+  {
+    path: "/publications",
+    name: "Publications",
+    component: () =>
+      import("../views/Publications.vue")
+  },
 ];
 
 const router = new VueRouter({
