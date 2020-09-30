@@ -1,6 +1,6 @@
 <template>
     <div>
-       <ul class="mt-4">
+       <ul class="mt-4 lg:ml-64 lg:mr-64">
            <li v-for="publication in publications" :key="publication.pubName" class="border-solid border-indigo-900 border-4 rounded ml-4 mr-4 mt-4 shadow-md">
                <div class="text-center text-lg font-semibold p-2">
                    {{publication.pubName}}
@@ -45,7 +45,7 @@ export default {
                 {
                     pubName: 'Von der Erkundung von Kontexten bis zum Schreibimpuls - Lernen mit mobilen, individualisierten und konvergenten Kulturressourcen (2013)',
                     pubSrcText: 'Bachmair, Ben In: informationen zur deutschdidaktik (ide). Zeitschrift für den Deutschunterricht in Wissenschaft und Schule. Heft "Literalität in der neuen Kommunikationslandschaft" Innsbruck: StudienVerlag ISSN 0721-9954',
-                    download: null, // Link kaputt
+                    download: 'https://ide.aau.at/wp-content/uploads/2017/11/2013-1-Bachmair.pdf',
                 },
                 {
                     pubName: 'Auf dem Weg zu einer Didaktik mobilen Lernens (2013)',
@@ -55,10 +55,10 @@ export default {
                 {
                     pubName: 'Using social network sites and mobile technology to scaffold equity of access to cultural resources (2013)',
                     pubSrcText: 'Cook, John, Pachler, Norbert and Bachmair, Ben (2013). In: Trentin, G. and Repetto, M. (eds) Using network and mobile technology to bridge formal and informal learning. Cambridge: Woodhead Publishing. pp. 31 - 56. ISBN 184-334-699-0; ISBN-13: 978 1 84334 699 9',
-                    download: null, // link kaputt
+                    download: 'https://www.sciencedirect.com/science/article/pii/B9781843346999500021?via%3Dihub',
                 },
                 {
-                    pubName: 'A socio-cultural frmae for mobile learning (2013)',
+                    pubName: 'A socio-cultural frame for mobile learning (2013)',
                     pubSrcText: 'Pachler, Norbert, Bachmair, Ben and Cook, John In: Berge, Z. and Muilenburg, L. (eds) In: Berge, Zane L. and Muilenburg, Lin Y. (eds) Handbook of Mobile Learning. New York: Routledge, pp. 35 - 46. ISBN 978-0-415-50369-3 (hbk), ISBN 978-0-203-11876-4 (ebk) (Awarded the "2014 Association for Educational Communications and Technology (AECT) Division of Distance Learning (DDL) Distance Education Book Award")',
                     download: null, // link kaputt
                 },
@@ -80,7 +80,7 @@ export default {
                 {
                     pubName: 'Mobilität und Schule - eine didaktische Annäherung (2014)',
                     pubSrcText: 'Bachmair, Ben In: Susanne Eichner, Elizabeth Prommer (Hrsg.): Fernsehen: Europäische Perspektiven. Festschrift für Prof. Dr. Lothar Mikos. UVK Verlagsgemeinschaft: Konstanz, München 2014. S. 269 - 285',
-                    download: 'null',
+                    download: null,
                 },
                 {
                     pubName: 'A cultural ecological frame for mobility and learning (2014)',
@@ -101,6 +101,16 @@ export default {
                     pubName: 'Mobile Learning - Strategies for planning and implementing learning with mobile devices in secondary school contexts (2014)',
                     pubSrcText: 'Seipold, Judith, Pachler, Norbert, Bachmair, Ben and Döbeli, Beat In: Leask, M. and Pachler, N. (eds) Learning to teach using ICT in the Secondary School. 3rd edition. London: Routledge ISBN 978-0-415-51651-8 ISBN 978-0-415-51652-5 ISBN 978-0-203-12420-8',
                     download: 'https://www.researchgate.net/publication/269393517_Mobile_learning_strategies_for_planning_and_implementing_learning_with_mobile_devices_in_secondary_school_contexts',
+                },
+                {
+                    pubName: 'Sustainability for innovative education - the case of mobile learning (2015)',
+                    pubSrcText: 'Bachmair, Ben, Pachler N. In: Journal of Interactive media in Education (JIME). The Open University. Milton Keynes, UK. E-ISSN: 1365-893X',
+                    download: 'https://jime.open.ac.uk/articles/10.5334/jime.ay/',
+                },
+                {
+                    pubName: 'Media Educational Endeavour In Our Disparate Cultural Development (2015)',
+                    pubSrcText: 'Ben Bachmair, Howard Scott Herausgeber: Digital Mobility, complete journal: ',
+                    download: 'http://riviste.erickson.it/med/it/category/2015/novembre-2015/',
                 },
             ]
         }
