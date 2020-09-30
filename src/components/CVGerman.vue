@@ -1,14 +1,14 @@
 <template>
-  <div>
-    <p >
+  <div class="p-4">
+    <p>
       Prof. Dr. phil. Ben Bachmair, Jahrgang 1943, war bis zur Pensionierung im Herbst 2008 Universitätsprofessor für Erziehungswissenschaft, Medienpädagogik und Mediendidaktik an der Universität Kassel und Dekan des dortigen Fachbereichs Erziehungswissenschaft/ Humanwissenschaften. Seit Sommersemester 2019 unterrichtet er als Seniorprofessor für Digitale Bildung an der Goethe-Universität Frankfurt. Zur digitalen Bildung kommt er über Forschung zu Handy und mobilem Lernen. Mobile Learning ist seit Mitte der 2010er Jahre sein Arbeitsschwerpunkt am Institute of Education, University College London der University of London, wo er Honorary Professor ist und sich mit dem anglophonen Wissenschaftskontext zur Digitalen Bildung vertraut gemacht hat. Am Londoner Institute of Education war er seit Anfang der 1990er Jahre mehrmals Research Fellow und Gründungsmitglied der dort angesiedelten London Mobile Learning Group.
     </p>
     <p class="mt-4">
       Er war unter anderem Gründungsvorsitzender des internationalen Universitätskonsortiums für Medien- und Kulturwissenschaft CoMundus und leitete dessen Studiengang eines European Master of Art in Media, Communication and Cultural Studies. Er war Vorsitzender der Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft und Vorstandsmitglied der Gesellschaft für Medienpädagogik und Kommunikationskultur (GMK). Er arbeitete mit an der European Charter for Media Literacy. Er hatte die wissenschaftliche Leitung des Modellversuchs zum mobilen Lernen von medien+bildung.com, der Lernwerkstatt der Landesanstalt für Medien in Rheinland-Pfalz, bei dem 2011 das Buch 'Mobiles Lernen mit dem Handy' entstand. Er war Mitglied der Kommission für den Schutz der Menschenwürde und den Jugendschutz in Rundfunk und Telemedien (KJM). Gastprofessuren nahm er wahr an den Universitäten Klagenfurt, Florenz, der Staatsuniversität von St. Petersburg.
     </p>
-    <h1 class="flex justify-center mt-4 font-extrabold">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
-    <Section class="mt-4">
-      <div class="cvplusminus">
+    <h1 class="flex justify-center mt-4 font-extrabold text-xl">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
+    <div class="mt-4">
+      <div class="plusminus">
         <h2 class="cvheaderABC">A. Theorie zu Bildung und Massenkommunikation</h2>
         <button @click="isOpenA = !isOpenA" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -149,7 +149,7 @@
           </p>
         </li>
       </ul>
-      <div class="cvplusminus">
+      <div class="plusminus">
         <h2 class="cvheaderABC">B. Bildungspraxis im Prozess der Individualisierung und Digitalisierung der Massenkommunikation, didaktische Methoden für Schule</h2>
         <button @click="isOpenB = !isOpenB" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -263,7 +263,7 @@
           </p>
         </li>
       </ul>
-      <div class="cvplusminus">
+      <div class="plusminus">
         <h2 class="cvheaderABC">C. Empirische Forschung</h2>
         <button @click="isOpenC = !isOpenC" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -324,7 +324,7 @@
           </p>
         </li>
       </ul>
-    </Section>
+    </div>
   </div>
 </template>
 

@@ -1,18 +1,53 @@
 <template>
   <div>
-      <ImpressumContent/>
+    <div class="flex flex-row-reverse p-4 md:justify-around lg:justify-center">
+      <button @click="(is20092013 = true); (is20142018 = false); (is2019Recent = false)" :class="is20092013 ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4">
+        2009 bis 2013
+      </button>
+      <button @click="(is20142018 = true); (is20092013 = false); (is2019Recent = false)" :class="is20142018 ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4 ml-2 mr-2">
+        2014 bis 2018
+      </button>
+      <button @click="(is2019Recent = true); (is20092013 = false); (is20142018 = false)" :class="is2019Recent ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4">
+        2019 bis aktuell
+      </button>
+    </div>
+    <div class="flex justify-center">
+      <img class="rounded shadow-md" alt="bachmair.png" src="../assets/pictures/bachmairLecture.png">
+    </div>
+    <div>
+        <div v-if="is20092013">
+            <Lec20092013/>
+        </div>
+        <div v-if="is20142018">
+            <Lec20142018/>
+        </div>
+        <div v-if="is2019Recent">
+            <Lec2019Recent/>
+        </div>
+    </div>
   </div>
 </template>
 
 <script>
 // @ is an alias to /src
-import ImpressumContent from '@/components/ImpressumContent.vue'
+import Lec20092013 from '@/components/Lec20092013.vue'
+import Lec20142018 from '@/components/Lec20142018.vue'
+import Lec2019Recent from '@/components/Lec2019Recent.vue'
 
 
 export default {
   name: 'Lectures',
   components: {
-    ImpressumContent,
+    Lec20092013,
+    Lec20142018,
+    Lec2019Recent,
+  },
+  data() {
+    return {
+      is20092013: false,
+      is20142018:false,
+      is2019Recent: true,
+    }
   },
 }
 </script>

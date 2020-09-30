@@ -12,7 +12,7 @@
       <div class="flex justify-center lg:block">
        <img class="rounded h-auto w-auto overflow-hidden shadow-lg border-indigo-900 lg:object-cover lg:max-w-6xl lg:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
       </div>  
-      <div class="flex items-start justify-center p-4 lg:p-0 lg:ml-20 lg:mr-20">
+      <div>
         <div v-if="isGerman">
           <CVGerman/>
         </div>

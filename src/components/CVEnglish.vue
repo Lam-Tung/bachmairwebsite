@@ -1,11 +1,11 @@
 <template>
-  <div>
+  <div class="divide-y-2 divide-indigo-900 p-8">
     <section>
-      <h1 class="font-extrabold">Short CV: Prof. Dr. Ben Bachmair</h1>
+      <h1 class="font-extrabold text-xl">Short CV: Prof. Dr. Ben Bachmair</h1>
       Born in 1943. Until his retirement in 2008 Professor of pedagogy, media education and media enhanced learning at the University of Kassel, Germany. Currently he is Honorary Professor at the UCL Institute of Education, University College London. Since 2019 he teaches digital education as Senior Professor at the Goethe Universität, Frankfurt, Germany. His specialisms include mass communication and education, also digital education, TV reception, cultural transformation of mass communication and media, further, media and multimodal representation for learning, mobile learning, socialization within different forms of mass communication, global learning and migration with the focus on a 2nd language, cultural transformation of education and cultural ecology. 
     </section>
     <section class="mt-4">
-      <h1 class="font-extrabold">Curriculum Vitae</h1>
+      <h1 class="font-extrabold text-xl">Curriculum Vitae</h1>
       <ul class="list-disc list-inside">
         <li>
           Born 1943
@@ -53,7 +53,7 @@
       </ul>
     </section>
     <section class="mt-4">
-      <h1 class="font-extrabold">Academic Activities at times</h1>
+      <h1 class="font-extrabold text-xl">Academic Activities at times</h1>
       <ul class="list-none list-inside">
         <li>
           - Dean of the Faculty Erziehungswissenschaft/ Humanwissenschaften, University of Kassel
@@ -76,7 +76,7 @@
       </ul>  
     </section>
     <section class="mt-4">
-      <h1 class="font-extrabold">Selected List of Membership to Academic Committees, Counseling and European Research</h1>
+      <h1 class="font-extrabold text-xl">Selected List of Membership to Academic Committees, Counseling and European Research</h1>
       <ul class="list-none list-inside">
         <li>
           - Chair of the Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft
@@ -111,7 +111,7 @@
       </ul>  
     </section>
     <section class="mt-4">
-      <h1 class="font-extrabold">Areas of Concentration</h1>
+      <h1 class="font-extrabold text-xl">Areas of Concentration</h1>
       <ul class="list-none list-inside">
         <li>
           - Theory of education and mass communication within a socio-cultural and cultural-historic framework; cultural ecology

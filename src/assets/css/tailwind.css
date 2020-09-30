@@ -34,9 +34,10 @@
 .cvheaderABC {
     margin-top: 1rem;
     font-weight: 700;
+    font-size: 1.125rem;
 }
 
-.cvplusminus {
+.plusminus {
     display: flex;
     align-items: center;
     justify-content: center;

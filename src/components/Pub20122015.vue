@@ -59,8 +59,8 @@ export default {
                 },
                 {
                     pubName: 'A socio-cultural frame for mobile learning (2013)',
-                    pubSrcText: 'Pachler, Norbert, Bachmair, Ben and Cook, John In: Berge, Z. and Muilenburg, L. (eds) In: Berge, Zane L. and Muilenburg, Lin Y. (eds) Handbook of Mobile Learning. New York: Routledge, pp. 35 - 46. ISBN 978-0-415-50369-3 (hbk), ISBN 978-0-203-11876-4 (ebk) (Awarded the "2014 Association for Educational Communications and Technology (AECT) Division of Distance Learning (DDL) Distance Education Book Award")',
-                    download: null, // link kaputt
+                    pubSrcText: 'Pachler, N., Bachmair, B. and Cook, J. (2013). A socio-cultural frame for mobile learning.’ In Berge, Zane L. and Muilenburg, Lin Y. (eds) Handbook of Mobile Learning. New York: Routledge, pp. 35-46. ISBN 978-0-415-50369-3 (hbk), ISBN 978-0-203-11876-4 (ebk)',
+                    download: null,
                 },
                 {
                     pubName: 'Composition and appropriation in a culture characterised by provisionality (2013)',
@@ -85,7 +85,7 @@ export default {
                 {
                     pubName: 'A cultural ecological frame for mobility and learning (2014)',
                     pubSrcText: 'Bachmair, B. and Pachler, N. In: Dorothee Meister, Theo Hug, Norm Friesen (eds). Educational Media Ecologies: International Perspectives. MedienPädagogik 24 (4. Sept.): 53 - 74',
-                    download: 'null', // link kaputt
+                    download: null,
                 },
                 {
                     pubName: 'Framing ubiquitous mobility educationally: mobile devices and context-aware learning (2014)',
