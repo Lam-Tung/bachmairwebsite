@@ -43,6 +43,12 @@ const routes = [
     component: () =>
       import("../views/Lectures.vue")
   },
+  {
+    path: "/culturalecology",
+    name: "CulturalEcology",
+    component: () =>
+      import("../views/CulturalEcology.vue")
+  },
 ];
 
 const router = new VueRouter({
