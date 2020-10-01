@@ -1,7 +1,7 @@
 <template>
     <div>
         <div class="plusminus">
-            <h2 @click="isOpen2009 = !isOpen2009" class="font-semibold">Vorträge 2009</h2>
+            <h2 @click="isOpen2009 = !isOpen2009" class="font-semibold text-xl">Vorträge 2009</h2>
             <button @click="isOpen2009 = !isOpen2009" class=" block focus:outline-none p-4">
                 <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path v-if="!isOpen2009" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -23,7 +23,7 @@
             </li>
         </ul>
         <div class="plusminus">
-            <h2 @click="isOpen2010 = !isOpen2010" class="font-semibold">Vorträge 2010</h2>
+            <h2 @click="isOpen2010 = !isOpen2010" class="font-semibold text-xl">Vorträge 2010</h2>
             <button @click="isOpen2010 = !isOpen2010" class=" block focus:outline-none p-4">
                 <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path v-if="!isOpen2010" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -45,7 +45,7 @@
             </li>
         </ul>
         <div class="plusminus">
-            <h2 @click="isOpen2011 = !isOpen2011" class="font-semibold">Vorträge 2011</h2>
+            <h2 @click="isOpen2011 = !isOpen2011" class="font-semibold text-xl">Vorträge 2011</h2>
             <button @click="isOpen2011 = !isOpen2011" class=" block focus:outline-none p-4">
                 <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path v-if="!isOpen2011" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -67,7 +67,7 @@
             </li>
         </ul>
         <div class="plusminus">
-            <h2 @click="isOpen2012 = !isOpen2012" class="font-semibold">Vorträge 2012</h2>
+            <h2 @click="isOpen2012 = !isOpen2012" class="font-semibold text-xl">Vorträge 2012</h2>
             <button @click="isOpen2012 = !isOpen2012" class=" block focus:outline-none p-4">
                 <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path v-if="!isOpen2012" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -89,7 +89,7 @@
             </li>
         </ul>
         <div class="plusminus">
-            <h2 @click="isOpen2013 = !isOpen2013" class="font-semibold">Vorträge 2013</h2>
+            <h2 @click="isOpen2013 = !isOpen2013" class="font-semibold text-xl">Vorträge 2013</h2>
             <button @click="isOpen2013 = !isOpen2013" class=" block focus:outline-none p-4">
                 <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path v-if="!isOpen2013" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />

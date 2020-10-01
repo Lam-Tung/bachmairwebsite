@@ -11,10 +11,9 @@
         2019 bis aktuell
       </button>
     </div>
-    <div class="flex justify-center">
-      <img class="rounded shadow-md" alt="bachmair.png" src="../assets/pictures/bachmairLecture.png">
-    </div>
-    <div>
+    <div class="mt-8 lg:flex lg:justify-start">
+      <img class="block ml-auto mr-auto rounded shadow-md lg:object-contain lg:h-48 lg:w-48 lg:ml-24 lg:mr-24" alt="bachmair.png" src="../assets/pictures/bachmairLecture.png">
+      <div class="mt-4">
         <div v-if="is20092013">
             <Lec20092013/>
         </div>
@@ -24,6 +23,7 @@
         <div v-if="is2019Recent">
             <Lec2019Recent/>
         </div>
+    </div>
     </div>
   </div>
 </template>
