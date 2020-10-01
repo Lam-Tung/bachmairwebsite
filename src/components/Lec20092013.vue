@@ -299,6 +299,6 @@ export default {
                 },
             ],
         }
-    },
-}
+    }, // end data()
+} // end export
 </script>

@@ -18,7 +18,7 @@
             <Lec20092013/>
         </div>
         <div v-if="is20142018">
-            <Lec20142018/>
+            <Lec20152018/>
         </div>
         <div v-if="is2019Recent">
             <Lec2019Recent/>
@@ -31,7 +31,7 @@
 <script>
 // @ is an alias to /src
 import Lec20092013 from '@/components/Lec20092013.vue'
-import Lec20142018 from '@/components/Lec20142018.vue'
+import Lec20152018 from '@/components/Lec20152018.vue'
 import Lec2019Recent from '@/components/Lec2019Recent.vue'
 
 
@@ -39,7 +39,7 @@ export default {
   name: 'Lectures',
   components: {
     Lec20092013,
-    Lec20142018,
+    Lec20152018,
     Lec2019Recent,
   },
   data() {
