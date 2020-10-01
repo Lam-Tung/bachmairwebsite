@@ -11,8 +11,8 @@
         2019 bis aktuell
       </button>
     </div>
-    <div class="mt-8 lg:flex lg:justify-start">
-      <img class="block ml-auto mr-auto rounded shadow-md lg:object-contain lg:h-48 lg:w-48 lg:ml-24 lg:mr-24" alt="bachmair.png" src="../assets/pictures/bachmairLecture.png">
+    <div class="mt-8 lg:flex lg:justify-center">
+      <img class="block ml-auto mr-auto rounded shadow-md border-4 border-indigo-900 lg:object-contain lg:h-48 lg:w-48 lg:ml-24 lg:mr-24" alt="bachmair.png" src="../assets/pictures/bachmairLecture.png">
       <div class="mt-4">
         <div v-if="is20092013">
             <Lec20092013/>

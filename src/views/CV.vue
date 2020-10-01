@@ -10,7 +10,7 @@
     </div>
     <div class="lg:flex">
       <div class="flex justify-center lg:block">
-       <img class="rounded h-auto w-auto overflow-hidden shadow-lg border-indigo-900 lg:object-cover lg:max-w-6xl lg:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
+       <img class="rounded h-auto w-auto overflow-hidden shadow-lg imgBorder lg:object-cover lg:max-w-6xl lg:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
       </div>  
       <div>
         <div v-if="isGerman">

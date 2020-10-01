@@ -2,10 +2,10 @@
   <div>
     <div class="flex p-8 justify-around items-center sm:justify-evenly">
       <span class="text-xl font-bold sm:text-4xl">Verantwortlich für den Inhalt der Seite:</span>
-      <img class="ml-4 rounded shadow-md" alt="bachmair.png" src="../assets/pictures/bachmair.png">
+      <img class="ml-4 rounded shadow-md imgBorder" alt="bachmair.png" src="../assets/pictures/bachmair.png">
     </div>
-    <div class="lg:flex">
-      <img class="rounded h-auto w-auto overflow-hidden shadow-lg hidden lg:block border-indigo-900 lg:object-cover lg:max-w-6xl lg:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
+    <div class="lg:flex justify-center">
+      <img class="rounded h-auto w-auto overflow-hidden shadow-lg hidden lg:block imgBorder lg:object-cover lg:max-w-6xl lg:ml-20" alt="bachmair.png" src="../assets/pictures/bachmairCV.png">
       <div>
         <span class="flex justify-center text-2xl font-bold md:mt-6 lg:block lg:ml-16">Prof. Dr. Ben Bachmair</span>
         <div class="flex justify-start items-center mt-2 ml-2 md:justify-center md:mt-6 lg:justify-start lg:ml-16">
