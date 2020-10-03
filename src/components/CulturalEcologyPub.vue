@@ -35,7 +35,7 @@ export default {
                 {
                     pubName: 'John Cook, Norbert Pachler, Ben Bachmair (2011). Ubiquitous Mobility with Mobile Phones: a cultural ecology for mobile learning',
                     pubSrcText: 'E–Learning and Digital Media, Special Issue - Media: digital, ecological, epistemological. Volume 8 Number 3, pp. 181-196',
-                    download: 'www.wwwords.co.uk/ELEA', // TODO check link
+                    download: null,
                 },
                 {
                     pubName: 'Bachmair, Ben (2012). Kulturressourcen für Selbstrepräsentation jugendlicher Migranten im Kontext der Schule',
@@ -60,7 +60,7 @@ export default {
                 {
                     pubName: 'Bachmair, B., Pachler, N. (2014). A cultural ecological frame for mobility and learning',
                     pubSrcText: 'In: Dorothee Meister, Theo Hug, Norm Friesen (eds). Educational Media Ecologies: International Perspectives. MedienPädagogik',
-                    download: 'www.medienpaed.com', // TODO check link
+                    download: null,
                 },
                 {
                     pubName: 'Bachmair, B. (2016). Recognition of the social different - social justice for learning within an individualized, mobile, convergent mass communication',

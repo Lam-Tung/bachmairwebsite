@@ -1,15 +1,17 @@
 <template>
-  <div class="p-4">
-    <p>
-      Prof. Dr. phil. Ben Bachmair, Jahrgang 1943, war bis zur Pensionierung im Herbst 2008 Universitätsprofessor für Erziehungswissenschaft, Medienpädagogik und Mediendidaktik an der Universität Kassel und Dekan des dortigen Fachbereichs Erziehungswissenschaft/ Humanwissenschaften. Seit Sommersemester 2019 unterrichtet er als Seniorprofessor für Digitale Bildung an der Goethe-Universität Frankfurt. Zur digitalen Bildung kommt er über Forschung zu Handy und mobilem Lernen. Mobile Learning ist seit Mitte der 2010er Jahre sein Arbeitsschwerpunkt am Institute of Education, University College London der University of London, wo er Honorary Professor ist und sich mit dem anglophonen Wissenschaftskontext zur Digitalen Bildung vertraut gemacht hat. Am Londoner Institute of Education war er seit Anfang der 1990er Jahre mehrmals Research Fellow und Gründungsmitglied der dort angesiedelten London Mobile Learning Group.
-    </p>
-    <p class="mt-4">
-      Er war unter anderem Gründungsvorsitzender des internationalen Universitätskonsortiums für Medien- und Kulturwissenschaft CoMundus und leitete dessen Studiengang eines European Master of Art in Media, Communication and Cultural Studies. Er war Vorsitzender der Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft und Vorstandsmitglied der Gesellschaft für Medienpädagogik und Kommunikationskultur (GMK). Er arbeitete mit an der European Charter for Media Literacy. Er hatte die wissenschaftliche Leitung des Modellversuchs zum mobilen Lernen von medien+bildung.com, der Lernwerkstatt der Landesanstalt für Medien in Rheinland-Pfalz, bei dem 2011 das Buch 'Mobiles Lernen mit dem Handy' entstand. Er war Mitglied der Kommission für den Schutz der Menschenwürde und den Jugendschutz in Rundfunk und Telemedien (KJM). Gastprofessuren nahm er wahr an den Universitäten Klagenfurt, Florenz, der Staatsuniversität von St. Petersburg.
-    </p>
-    <h1 class="flex justify-center mt-4 font-extrabold text-xl">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
+  <div class="p-8 lg:ml-24 lg:mr-24">
+    <div>
+      <p class="mt-4">
+        Prof. Dr. phil. Ben Bachmair, Jahrgang 1943, war bis zur Pensionierung im Herbst 2008 Universitätsprofessor für Erziehungswissenschaft, Medienpädagogik und Mediendidaktik an der Universität Kassel und Dekan des dortigen Fachbereichs Erziehungswissenschaft/ Humanwissenschaften. Seit Sommersemester 2019 unterrichtet er als Seniorprofessor für Digitale Bildung an der Goethe-Universität Frankfurt. Zur digitalen Bildung kommt er über Forschung zu Handy und mobilem Lernen. Mobile Learning ist seit Mitte der 2010er Jahre sein Arbeitsschwerpunkt am Institute of Education, University College London der University of London, wo er Honorary Professor ist und sich mit dem anglophonen Wissenschaftskontext zur Digitalen Bildung vertraut gemacht hat. Am Londoner Institute of Education war er seit Anfang der 1990er Jahre mehrmals Research Fellow und Gründungsmitglied der dort angesiedelten London Mobile Learning Group.
+      </p>
+      <p class="mt-4">
+        Er war unter anderem Gründungsvorsitzender des internationalen Universitätskonsortiums für Medien- und Kulturwissenschaft CoMundus und leitete dessen Studiengang eines European Master of Art in Media, Communication and Cultural Studies. Er war Vorsitzender der Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft und Vorstandsmitglied der Gesellschaft für Medienpädagogik und Kommunikationskultur (GMK). Er arbeitete mit an der European Charter for Media Literacy. Er hatte die wissenschaftliche Leitung des Modellversuchs zum mobilen Lernen von medien+bildung.com, der Lernwerkstatt der Landesanstalt für Medien in Rheinland-Pfalz, bei dem 2011 das Buch 'Mobiles Lernen mit dem Handy' entstand. Er war Mitglied der Kommission für den Schutz der Menschenwürde und den Jugendschutz in Rundfunk und Telemedien (KJM). Gastprofessuren nahm er wahr an den Universitäten Klagenfurt, Florenz, der Staatsuniversität von St. Petersburg.
+      </p>
+    </div>
+    <h1 class="flex justify-center items-center mt-4 font-extrabold text-xl">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
     <div class="mt-4">
       <div class="plusminus">
-        <h2 class="cvheaderABC">A. Theorie zu Bildung und Massenkommunikation</h2>
+        <h2 @click="isOpenA = !isOpenA" class="cvheaderABC cursor-pointer">A. Theorie zu Bildung und Massenkommunikation</h2>
         <button @click="isOpenA = !isOpenA" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path v-if="!isOpenA" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -150,7 +152,7 @@
         </li>
       </ul>
       <div class="plusminus">
-        <h2 class="cvheaderABC">B. Bildungspraxis im Prozess der Individualisierung und Digitalisierung der Massenkommunikation, didaktische Methoden für Schule</h2>
+        <h2 @click="isOpenB = !isOpenB" class="cvheaderABC cursor-pointer">B. Bildungspraxis im Prozess der Individualisierung und Digitalisierung der Massenkommunikation, didaktische Methoden für Schule</h2>
         <button @click="isOpenB = !isOpenB" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path v-if="!isOpenB" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
@@ -264,7 +266,7 @@
         </li>
       </ul>
       <div class="plusminus">
-        <h2 class="cvheaderABC">C. Empirische Forschung</h2>
+        <h2 @click="isOpenC = !isOpenC" class="cvheaderABC cursor-pointer">C. Empirische Forschung</h2>
         <button @click="isOpenC = !isOpenC" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
             <path v-if="!isOpenC" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />

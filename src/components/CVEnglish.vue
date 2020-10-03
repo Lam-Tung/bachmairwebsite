@@ -1,5 +1,5 @@
 <template>
-  <div class="divide-y-2 divide-indigo-900 p-8">
+  <div class="divide-y-2 divide-indigo-900 p-8 lg:ml-24 lg:mr-24">
     <section>
       <h1 class="font-extrabold text-xl">Short CV: Prof. Dr. Ben Bachmair</h1>
       Born in 1943. Until his retirement in 2008 Professor of pedagogy, media education and media enhanced learning at the University of Kassel, Germany. Currently he is Honorary Professor at the UCL Institute of Education, University College London. Since 2019 he teaches digital education as Senior Professor at the Goethe Universität, Frankfurt, Germany. His specialisms include mass communication and education, also digital education, TV reception, cultural transformation of mass communication and media, further, media and multimodal representation for learning, mobile learning, socialization within different forms of mass communication, global learning and migration with the focus on a 2nd language, cultural transformation of education and cultural ecology. 
