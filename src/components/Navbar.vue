@@ -28,7 +28,7 @@
         <router-link to="/lectures" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
           Vorträge
         </router-link>
-        <router-link to="/about" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
+        <router-link to="/learning" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
           Lernen
         </router-link>
         <router-link to="/culturalecology" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
