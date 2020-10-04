@@ -1,8 +1,10 @@
 <template>
   <header class="bg-indigo-900 lg:flex lg:justify-center lg:items-center lg:px-4 lg:py-3">
     <div class="flex items-center justify-between px-4 py-3 lg:p-0">
-      <div class="font-semibold text-4xl mr-4 text-white tracking-tight">
-        Ben Bachmair
+      <div class="font-semibold text-4xl ml-4 mr-4 text-white tracking-tight">
+        <router-link to="/">
+          Ben Bachmair
+        </router-link>
       </div>
       <div class="lg:hidden">
         <button @click="isOpen = !isOpen" type="button" class="block text-gray-500 hover:text-white focus:text-white focus:outline-none">
@@ -32,7 +34,7 @@
         <router-link to="/culturalecology" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
           Kulturökologie
         </router-link>
-        <router-link to="/impressum" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
+        <router-link to="/impressum" @click.native="isOpen = false" class="mt-1 block px-2 py-1 mr-4 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
           Impressum
         </router-link>
     </nav>
