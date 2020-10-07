@@ -17,12 +17,54 @@
             <p class="p-4 lg:p-8">
                 Mobiles Lernen bedeutet in einer ersten Definition, die neuen mobilen Digitaltechnologien, das sind im Moment vor allem Smartphones und Tablets, in Lernkontexten wie Schule oder für informelles Lernen im Alltag zu nutzen. Dafür gibt es auf den ersten Blick einen guten Grund: Weltweit trägt nahezu jeder ein Handy oder das internetfähig Smartphone bei sich. Dennoch verlangt Schule weltweit, Handys und Smartphones in der Schule auszuschalten. Mit Engagement unterstützen Lehrerinnen und Lehrer dieses Handy-Verbot.
             </p>
+            <button @click="downloadWithAxios(src, title)" class="ref text-center p-2">
+                Volltext hier als PDF herunterladen
+            </button>
         </div>
     </div>
 </template>
 
 <script>
+
+import axios from 'axios';
+
 export default {
     name: "LearnMobile",
-}
+    data() {
+        return {
+            title : 'WasIstMobilesLernen.png',
+            src : require('../assets/pictures/bachmair.png'),
+            
+            filesrcs: [
+                {
+                    title: 'WasIstMobilesLernen.pdf',
+                    src: 'http://ben-bachmair.de/Mobiles_Lernen_-_Was_ist_mobiles_Lernen_files/Bachmair%20Mobiles%20Lernen%208August14.pdf',
+                },
+                
+            ],
+        } // end return
+    }, // end data
+    methods: {
+        forceFileDownload(response, title) {
+            console.log(title)
+            const url = window.URL.createObjectURL(new Blob([response.data]))
+            const link = document.createElement('a')
+            link.href = url
+            link.setAttribute('download', title)
+            document.body.appendChild(link)
+            link.click()
+        },
+        downloadWithAxios(url, title) {
+            axios({
+                method: 'get',
+                url,
+                responseType: 'arraybuffer',
+            })
+                .then((response) => {
+                this.forceFileDownload(response, title)
+                })
+                .catch(() => console.log('error occured'))
+        },
+  } // end methods
+} // end export
 </script>
