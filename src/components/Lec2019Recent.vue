@@ -1,14 +1,6 @@
 <template>
     <div>
-        <div class="plusminus">
-            <h2 @click="isOpen2019 = !isOpen2019" class="font-semibold text-xl cursor-pointer lectures">Vorträge 2019</h2>
-            <button @click="isOpen2019 = !isOpen2019" class=" block focus:outline-none p-4">
-                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path v-if="!isOpen2019" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    <path v-if="isOpen2019" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            </button>
-        </div>
+        <h2 @click="isOpen2019 = !isOpen2019" class="lectures">Vorträge 2019</h2>
         <ul :class="isOpen2019 ? 'block' : 'hidden'" class="mt-4 lg:ml-64 lg:mr-64">
            <li v-for="lecture in lectures2019" :key="lecture.lecDate" class="divide-y-2 divide-indigo-900 ml-4 mr-4 mt-4">
                <div class="text-center text-lg font-semibold p-4">
@@ -22,15 +14,7 @@
                </div>
             </li>
         </ul>
-        <div class="plusminus">
-            <h2 @click="isOpen2020 = !isOpen2020" class="font-semibold text-xl cursor-pointer lectures">Vorträge 2020</h2>
-            <button @click="isOpen2020 = !isOpen2020" class=" block focus:outline-none p-4">
-                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path v-if="!isOpen2020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                    <path v-if="isOpen2020" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-            </button>
-        </div>
+        <h2 @click="isOpen2020 = !isOpen2020" class="lectures">Vorträge 2020</h2>
         <ul :class="isOpen2020 ? 'block' : 'hidden'" class="mt-4 lg:ml-64 lg:mr-64">
            <li v-for="lecture in lectures2020" :key="lecture.lecDate" class="divide-y-2 divide-indigo-900 ml-4 mr-4 mt-4">
                <div class="text-center text-lg font-semibold p-4">
