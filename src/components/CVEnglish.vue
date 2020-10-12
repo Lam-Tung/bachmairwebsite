@@ -1,11 +1,11 @@
 <template>
   <div class="divide-y-2 divide-indigo-900 p-8 lg:ml-24 lg:mr-24">
-    <section>
-      <h1 class="font-extrabold text-xl">Short CV: Prof. Dr. Ben Bachmair</h1>
+    <section class="text-lg">
+      <h1 class="cvenglishheader">Short CV: Prof. Dr. Ben Bachmair</h1>
       Born in 1943. Until his retirement in 2008 Professor of pedagogy, media education and media enhanced learning at the University of Kassel, Germany. Currently he is Honorary Professor at the UCL Institute of Education, University College London. Since 2019 he teaches digital education as Senior Professor at the Goethe Universität, Frankfurt, Germany. His specialisms include mass communication and education, also digital education, TV reception, cultural transformation of mass communication and media, further, media and multimodal representation for learning, mobile learning, socialization within different forms of mass communication, global learning and migration with the focus on a 2nd language, cultural transformation of education and cultural ecology. 
     </section>
-    <section class="mt-4">
-      <h1 class="font-extrabold text-xl">Curriculum Vitae</h1>
+    <section class="mt-4 text-lg">
+      <h1 class="cvenglishheader">Curriculum Vitae</h1>
       <ul class="list-disc list-inside">
         <li>
           Born 1943
@@ -13,13 +13,13 @@
         <li>
           1963 to 1969:
           <ul class="list-none">
-            <li>
+            <li class="lg:ml-4">
               - Studies in Teaching at University of München
             </li>
-            <li>
+            <li class="lg:ml-4">
               - Studies in Pedagogy, Psychology and Physiology at University of Erlangen
             </li>
-            <li>
+            <li class="lg:ml-4">
               - Doctorate 1969 from the University of Erlangen
             </li>
           </ul>
@@ -27,16 +27,16 @@
         <li>
           1969 to 1978:
           <ul class="list-none">
-            <li>
+            <li class="lg:ml-4">
               - Planning and research for the production of educational films at the Institut fuer Film und Bild (München)
             </li>
-            <li>
+            <li class="lg:ml-4">
               - Curriculum development for preschool education at the Deutsches Jugendinstitut (München)
             </li>
-            <li>
+            <li class="lg:ml-4">
               - Scholarship of the Deutsche Forschungsgemeinschaft
             </li>
-            <li>
+            <li class="lg:ml-4">
               - Teaching and research at the German universities of Erlangen, Kiel und Siegen
             </li>
           </ul>
@@ -52,8 +52,8 @@
         </li>
       </ul>
     </section>
-    <section class="mt-4">
-      <h1 class="font-extrabold text-xl">Academic Activities at times</h1>
+    <section class="mt-4 text-lg">
+      <h1 class="cvenglishheader">Academic Activities at times</h1>
       <ul class="list-none list-inside">
         <li>
           - Dean of the Faculty Erziehungswissenschaft/ Humanwissenschaften, University of Kassel
@@ -75,8 +75,8 @@
         </li>
       </ul>  
     </section>
-    <section class="mt-4">
-      <h1 class="font-extrabold text-xl">Selected List of Membership to Academic Committees, Counseling and European Research</h1>
+    <section class="mt-4 text-lg">
+      <h1 class="cvenglishheader">Selected List of Membership to Academic Committees, Counseling and European Research</h1>
       <ul class="list-none list-inside">
         <li>
           - Chair of the Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft
@@ -110,8 +110,8 @@
         </li>
       </ul>  
     </section>
-    <section class="mt-4">
-      <h1 class="font-extrabold text-xl">Areas of Concentration</h1>
+    <section class="mt-4 text-lg">
+      <h1 class="cvenglishheader">Areas of Concentration</h1>
       <ul class="list-none list-inside">
         <li>
           - Theory of education and mass communication within a socio-cultural and cultural-historic framework; cultural ecology

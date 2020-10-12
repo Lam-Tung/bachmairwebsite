@@ -1,6 +1,6 @@
 <template>
-    <div class="ml-4 mr-4 border-4 border-indigo-900 rounded md:ml-12 md:mr-12 lg:ml-64 lg:mr-64">
-        <h1 class="text-center text-2xl font-semibold p-4">Was ist Kulturökologie?</h1>
+    <div class="text-xl ml-4 mr-4 border-4 border-indigo-900 rounded md:ml-12 md:mr-12 lg:ml-64 lg:mr-64">
+        <h1 class="definitioncard">Was ist Kulturökologie?</h1>
         <p class="p-4 lg:p-8">
             In der ersten Annäherung an eine Definition Mobilen Lernens handelt es sich um Lernen, bei dem die Anwendungsfunktionen mobiler digitaler Endgeräte eine Rolle spielen. Wenn Leseanfänger Wörter ihrer Lebenswelt wie Müllverbrennungsanlage mit dem Handy fotografieren und diese Fotos in der Grundschule ausdrucken, dann darüber reden, kommt die Fotofunktion des Handys beim Leselernen zum Tragen.
         </p>

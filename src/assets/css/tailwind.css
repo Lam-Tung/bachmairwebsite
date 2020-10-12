@@ -7,8 +7,9 @@
 /*Used in CVGerman / CVEnglish / Pubxyz*/
 .pubsrc {
     font-style: italic;
-    font-weight: 300;
+    font-weight: 250;
     margin-top: 1rem;
+    color:#3c366b;
 }
 
 /*Used in CVGerman / Pubxyz*/
@@ -28,12 +29,14 @@
 }
 
 .cvheaderli {
-    font-weight: 700;
+    font-weight: 800;
+    font-size: 1.125rem;
 }
 
 .cvheaderABC {
     font-weight: 700;
     font-size: 1.125rem;
+    text-decoration: underline;
 }
 
 /*Used in CV / Lectures / */
@@ -48,4 +51,41 @@
     border-color: #3c366b;
     border-color: rgba(60, 54, 107, var(--border-opacity));
     border-width: 4px;
+}
+
+.lectures {
+    font-family: 'Satisfy', cursive;
+    font-size: 2.25rem;
+    text-decoration: underline;
+    margin-bottom: 1rem;
+}
+
+.body {
+    font-family: 'Noto Sans JP', sans-serif;
+    --bg-opacity: 1;
+    background-color: #edf2f7;
+    background-color: rgba(237, 242, 247, var(--bg-opacity));
+}
+
+.cvenglishheader {
+    font-weight: 800;
+    font-size: 1.25rem;
+    text-decoration: underline;
+    
+}
+
+.pubname {
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    padding: 0.5rem;
+    text-decoration: underline;
+}
+
+.definitioncard {
+    text-align: center;
+    font-size: 1.75rem;
+    font-weight: 600;
+    padding: 1rem;
+    text-decoration: underline;
 }

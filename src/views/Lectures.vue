@@ -5,7 +5,7 @@
         2009 bis 2013
       </button>
       <button @click="(is20142018 = true); (is20092013 = false); (is2019Recent = false)" :class="is20142018 ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4 ml-2 mr-2">
-        2014 bis 2018
+        2015 bis 2018
       </button>
       <button @click="(is2019Recent = true); (is20092013 = false); (is20142018 = false)" :class="is2019Recent ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4">
         2019 bis aktuell

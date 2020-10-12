@@ -2,7 +2,7 @@
     <div>
        <ul class="mt-4 lg:ml-64 lg:mr-64">
            <li v-for="publication in publications" :key="publication.pubName" class="border-solid border-indigo-900 border-4 rounded ml-4 mr-4 mt-4 shadow-md">
-               <div class="text-center text-lg font-semibold p-2">
+               <div class="pubname">
                    {{publication.pubName}}
                </div>
                <div class="text-center p-2 pubsrc">

@@ -1,7 +1,7 @@
 <template>
     <div class="space-y-4">
-        <div class="ml-4 mr-4 border-4 border-indigo-900 rounded md:ml-12 md:mr-12 lg:ml-64 lg:mr-64">
-            <h1 class="text-center text-2xl font-semibold p-4">Was ist mobiles Lernen?</h1>
+        <div class="text-xl ml-4 mr-4 border-4 border-indigo-900 rounded md:ml-12 md:mr-12 lg:ml-64 lg:mr-64">
+            <h1 class="definitioncard">Was ist mobiles Lernen?</h1>
             <p class="p-4 lg:p-8">
                 In der ersten Annäherung an eine Definition Mobilen Lernens handelt es sich um Lernen, bei dem die Anwendungsfunktionen mobiler digitaler Endgeräte eine Rolle spielen. Wenn Leseanfänger Wörter ihrer Lebenswelt wie Müllverbrennungsanlage mit dem Handy fotografieren und diese Fotos in der Grundschule ausdrucken, dann darüber reden, kommt die Fotofunktion des Handys beim Leselernen zum Tragen.
             </p>
@@ -12,7 +12,7 @@
                 Um zu einer fundierten Definition mobilen Lernens zu kommen, ist es hilfreich die Passung (englisch: Affordance) der digitalen Mobil-Technologie an gesellschaftliche Strukturen wie Individualisierung und Ökonomisierung, dem Akteur-Status der Lernenden und den Kulturpraktiken des Lernens und Lehrens zu analysieren.
             </p>
         </div>
-        <div class="ml-4 mr-4 border-4 border-indigo-900 rounded md:ml-12 md:mr-12 lg:ml-64 lg:mr-64">
+        <div class="text-xl ml-4 mr-4 border-4 border-indigo-900 rounded md:ml-12 md:mr-12 lg:ml-64 lg:mr-64">
             <h1 class="text-center text-2xl font-semibold p-4">Stichworte zum mobilen Lernen: Alltag, Schule, Ökonomie und Kultur</h1>
             <p class="p-4 lg:p-8">
                 Mobiles Lernen bedeutet in einer ersten Definition, die neuen mobilen Digitaltechnologien, das sind im Moment vor allem Smartphones und Tablets, in Lernkontexten wie Schule oder für informelles Lernen im Alltag zu nutzen. Dafür gibt es auf den ersten Blick einen guten Grund: Weltweit trägt nahezu jeder ein Handy oder das internetfähig Smartphone bei sich. Dennoch verlangt Schule weltweit, Handys und Smartphones in der Schule auszuschalten. Mit Engagement unterstützen Lehrerinnen und Lehrer dieses Handy-Verbot.
