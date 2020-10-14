@@ -16,9 +16,6 @@
       </div>
     </div>
     <nav :class="isOpen ? 'block' : 'hidden'" class="px-2 pt-2 pb-4 lg:flex md:p-0 lg:text-2xl">
-        <router-link to="/" @click.native="isOpen = false" class="block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800">
-          Home
-        </router-link>
         <router-link to="/cv" @click.native="isOpen = false" class="mt-1 block px-2 py-1 text-white font-semibold rounded hover:bg-gray-800 md:mt-0 md:ml-2">
           Lebenslauf
         </router-link>

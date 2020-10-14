@@ -8,9 +8,9 @@
         Er war unter anderem Gründungsvorsitzender des internationalen Universitätskonsortiums für Medien- und Kulturwissenschaft CoMundus und leitete dessen Studiengang eines European Master of Art in Media, Communication and Cultural Studies. Er war Vorsitzender der Kommission Medienpädagogik der Deutschen Gesellschaft für Erziehungswissenschaft und Vorstandsmitglied der Gesellschaft für Medienpädagogik und Kommunikationskultur (GMK). Er arbeitete mit an der European Charter for Media Literacy. Er hatte die wissenschaftliche Leitung des Modellversuchs zum mobilen Lernen von medien+bildung.com, der Lernwerkstatt der Landesanstalt für Medien in Rheinland-Pfalz, bei dem 2011 das Buch 'Mobiles Lernen mit dem Handy' entstand. Er war Mitglied der Kommission für den Schutz der Menschenwürde und den Jugendschutz in Rundfunk und Telemedien (KJM). Gastprofessuren nahm er wahr an den Universitäten Klagenfurt, Florenz, der Staatsuniversität von St. Petersburg.
       </p>
     </div>
-    <h1 class="flex justify-center items-center mt-4 font-extrabold text-xl underline">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
+    <h1 class="mt-4 font-extrabold text-xl underline">Schwerpunkte von Forschung und Theorie mit ausgewählten Publikationen</h1>
     <div class="mt-4">
-      <div class="plusminus">
+      <div class="flex justify-between items-center">
         <h2 @click="isOpenA = !isOpenA" class="cvheaderABC cursor-pointer">A. Theorie zu Bildung und Massenkommunikation</h2>
         <button @click="isOpenA = !isOpenA" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -151,7 +151,7 @@
           </p>
         </li>
       </ul>
-      <div class="plusminus">
+      <div class="flex justify-between items-center">
         <h2 @click="isOpenB = !isOpenB" class="cvheaderABC cursor-pointer">B. Bildungspraxis im Prozess der Individualisierung und Digitalisierung der Massenkommunikation, didaktische Methoden für Schule</h2>
         <button @click="isOpenB = !isOpenB" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -265,7 +265,7 @@
           </p>
         </li>
       </ul>
-      <div class="plusminus">
+      <div class="flex justify-between items-center">
         <h2 @click="isOpenC = !isOpenC" class="cvheaderABC cursor-pointer">C. Empirische Forschung</h2>
         <button @click="isOpenC = !isOpenC" class=" block focus:outline-none p-4">
           <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">

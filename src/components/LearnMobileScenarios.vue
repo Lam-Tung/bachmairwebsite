@@ -68,9 +68,14 @@ export default {
                     download: 'pdfs/Hausaufgaben 2013 Ben Bachmair.pdf',
                 },
                 {
-                    scenarioName: 'Botanische Garten / Botanical Garden (2012)',
+                    scenarioName: 'Botanische Garten (2012)',
                     author: 'Ben Bachmair',
-                    download: null, //TODO eng and ger
+                    download: 'pdfs/Botanische Garten.pdf',
+                },
+                {
+                    scenarioName: 'Botanical Garden (2012)',
+                    author: 'Ben Bachmair',
+                    download: 'pdfs/Botanical Garden.pdf.pdf',
                 },
                 {
                     scenarioName: 'Training Scenario - MyMobile (2012)',
@@ -100,7 +105,7 @@ export default {
                 {
                     scenarioName: 'Homework - Mathematic Angles (2011)',
                     author: 'Ben Bachmair, John Cook, Norbert Pachler',
-                    download: 'pdfs/',
+                    download: 'pdfs/Homework Mathematics Angles 2011.pdf',
                 },
             ],
         } // end return
