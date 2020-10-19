@@ -2,7 +2,7 @@
   <div>
     <div class="p-4 flex items-center justify-center">
       <button @click="(isDefinition = true); (isPublications = false)" :class="isDefinition ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4 mr-4">
-        Definition
+        Kulturökologie
       </button>
       <button @click="(isDefinition = false); (isPublications = true)" :class="isPublications ? 'bg-orange-500' : 'bg-indigo-900'" class="rounded text-2xl text-white p-4">
         Publikationen

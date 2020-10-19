@@ -4,7 +4,7 @@
             <h1 class="definitioncard">Was ist mobiles Lernen?</h1>
             <div v-if="!isDefinitionOpen">
                 <p class="p-4 lg:p-8">
-                    Mobiles Lernen zielt auf Lehr- und Lernformen, die medial-digitale Veränderungen in der Lebenswelt der Schülerinnen und Schüler in die Schule integrieren. Zur Lebenswelt gehören Handys ebenso wie Tablets. Welches didaktische Potential bieten Mobile Endgeräten als neue Kulturressource? Wie lässt sich dieses Potential mit Formen des situierten kooperierenden Lernens verbinden? (...mehr)
+                    Mobiles Lernen zielt auf Lehr- und Lernformen, die medial-digitale Veränderungen in der Lebenswelt der Schülerinnen und Schüler in die Schule integrieren. Zur Lebenswelt gehören Handys ebenso wie Tablets. Welches didaktische Potential bieten Mobile Endgeräten als neue Kulturressource? Wie lässt sich dieses Potential mit Formen des situierten kooperierenden Lernens verbinden? <span class="ref">(...mehr)</span>
                 </p>
             </div>
             <div v-if="isDefinitionOpen">
@@ -28,19 +28,17 @@
                 Volltext hier als PDF herunterladen
             </a>
         </div>
-        <div class="">
-            <div class="plusminus">
-                <h1 @click="isScenariosOpen = !isScenariosOpen" class="text-3xl underline font-semibold cursor-pointer">Szenarien</h1>
-                <button @click="isScenariosOpen = !isScenariosOpen" class=" block focus:outline-none p-4">
-                <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
-                    <path v-if="!isScenariosOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                <path v-if="isScenariosOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
-                </svg>
-                </button>
-            </div>
-            <div v-if="isScenariosOpen">
-                <LearnMobileScenarios/>
-            </div>
+        <div class="plusminus">
+            <h1 @click="isScenariosOpen = !isScenariosOpen" class="text-3xl underline font-semibold cursor-pointer">Szenarien</h1>
+            <button @click="isScenariosOpen = !isScenariosOpen" class=" block focus:outline-none p-4">
+            <svg class="w-8 h-8" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                <path v-if="!isScenariosOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M12 9v3m0 0v3m0-3h3m-3 0H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            <path v-if="isScenariosOpen" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M15 12H9m12 0a9 9 0 11-18 0 9 9 0 0118 0z" />
+            </svg>
+            </button>
+        </div>
+        <div v-if="isScenariosOpen">
+            <LearnMobileScenarios/>
         </div>
     </div>
 </template>

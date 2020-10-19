@@ -1,6 +1,8 @@
 <template>
   <div id="app" class="antialiased mb-4">
-    <Navbar/>
+    <div v-if="!$route.meta.hideNavbar">
+      <Navbar/>
+    </div>
     <router-view/>
   </div>
 </template>
