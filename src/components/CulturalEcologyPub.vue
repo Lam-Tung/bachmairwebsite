@@ -1,7 +1,7 @@
 <template>
     <div>
        <ul class="mt-4 lg:ml-64 lg:mr-64">
-           <li v-for="publication in publications" :key="publication.pubName" class="border-solid border-indigo-900 border-4 rounded ml-4 mr-4 mt-4 shadow-md">
+           <li v-for="publication in publications.slice().reverse()" :key="publication.pubName" class="border-solid border-indigo-900 border-4 rounded ml-4 mr-4 mt-4 shadow-md">
                <div class="pubname">
                    {{publication.pubName}}
                </div>
@@ -55,7 +55,7 @@ export default {
                 {
                     pubName: 'Bachmair, Ben, Pachler, Norbert, Cook, John (2014). Kulturökologie, Medien und Mediennutzung',
                     pubSrcText: 'In: Angela Tillmann, Sandra Fleischer, Kai-Uwe Hugger (Hrsg.) Handbuch: Kinder und Medien, VS Verlag. S. 137 – 151. ISBN 978-3-531-18263-6, e-book: ISBN 978-3-531-18997-0',
-                    download: null,
+                    download: 'https://link.springer.com/chapter/10.1007%2F978-3-531-18997-0_10',
                 },
                 {
                     pubName: 'Bachmair, B., Pachler, N. (2014). A cultural ecological frame for mobility and learning',
